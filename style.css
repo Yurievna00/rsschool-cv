@@ -1,1 +1,141 @@
-# Create
+* {
+    box-sizing: border-box;
+  }
+html {
+    scroll-behavior: smooth; 
+  }
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 auto;
+  }
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0 100px;
+    margin: 0;
+    line-height: 50px;
+    background: #8FBC8F;
+  }
+
+nav li {
+    padding: 0 0.5em;
+}
+nav li:hover {
+    background-color: #82aa82;
+}
+main {
+    margin: 20px;
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+.section-item a:hover {
+    color: #000;
+  }
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+
+  }
+.main-container > div {
+    padding: 0 20px;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+.link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+  }  
+.link:hover {
+    color: #5d7260;
+  }
+.img{
+    width: 30%;
+    min-width: 300px;
+}
+.img img {
+    width: 100%;
+}
+nav a,nav a:hover,nav a:visited {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none; 
+}
+.contact-item a {
+    color:#000
+}
+section p {
+    padding-left: 20px;
+}
+.rss {
+    background-image: url("https://cv-hints.netlify.app/assets/svg/rss.svg");
+    background-size: contain;
+    color: #ffffff;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    height: 45px;
+    line-height: 27px;
+    text-decoration: underline;
+    width: 121px;
+    margin: 5px auto;
+
+}
+footer {
+    background: #829985;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+.footer-container a {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+.footer-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills-list{
+    color: #000;
+}
+.section-title-name{
+    font-size: 30px;
+    text-decoration:underline;
+    color: #829985;
+}
+.project a {
+    color: #000
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
