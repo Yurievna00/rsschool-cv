@@ -28,7 +28,8 @@ body {
 }
 li {
     text-decoration: none;
-    color: wheat;
+    color: #4d2323;
+    list-style-type: none;
 }
 
 .footer{
